@@ -1,0 +1,25 @@
+{
+	"name": "copona/system",
+    "type": "library",
+    "description": "",
+    "keywords": ["copona", "ecommerce", "framework", "opensource"],
+    "homepage": "https://github.com/copona/copona",
+    "license": "GPL-3.0+",
+    "require": {
+        "php": ">=5.6.4",
+        "cardinity/cardinity-sdk-php": "^1.0",
+        "braintree/braintree_php" : "3.2.0",
+        "leafo/scssphp": "0.0.12",
+        "divido/divido-php": ">=1.1.1",
+        "klarna/kco_rest": "^2.2",
+        "phpmailer/phpmailer": "^5.2",
+		"robmorgan/phinx": "^0.6.6",
+		"filp/whoops": "^2.1",
+        "illuminate/container": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Copona\\": "src/"
+        }
+    }
+}
