@@ -1,7 +1,7 @@
 {
 	"name": "copona/system",
     "type": "library",
-    "description": "",
+    "description": "Copona system",
     "keywords": ["copona", "ecommerce", "framework", "opensource"],
     "homepage": "https://github.com/copona/copona",
     "license": "GPL-3.0+",
